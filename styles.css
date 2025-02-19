@@ -1,13 +1,14 @@
-/* General styles */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-/* Centering content */
+/* Centered Container */
 .container {
     width: 80%;
     max-width: 900px;
@@ -20,45 +21,41 @@ body {
 
 /* Header */
 header {
-    background: #0073e6;
+    background: #0056b3;
     color: white;
-    padding: 20px;
+    padding: 30px 0;
     text-align: center;
     border-radius: 8px 8px 0 0;
 }
 
 header h1 {
     margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 18px;
 }
 
 /* Sections */
 section {
-    margin: 20px 0;
-    padding: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 /* Links */
 a {
-    color: #0073e6;
-    text-decoration: none;
+    color: #0056b3;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Contact section */
-.contact {
-    text-align: center;
-    background: #0073e6;
-    color: white;
-    padding: 10px;
-    border-radius: 0 0 8px 8px;
-}
-
-.contact a {
-    color: white;
 }
 
 /* Lists */
@@ -68,20 +65,36 @@ ul {
 }
 
 li {
-    padding: 5px 0;
+    padding: 8px 0;
+    font-size: 16px;
 }
 
 /* Buttons */
 .button {
     display: inline-block;
-    background: #0073e6;
+    background: #0056b3;
     color: white;
-    padding: 10px 15px;
-    margin-top: 10px;
+    padding: 10px 20px;
+    margin-top: 15px;
     border-radius: 5px;
     text-decoration: none;
 }
 
 .button:hover {
-    background: #005bb5;
+    background: #003d80;
+}
+
+/* Footer */
+footer {
+    background: #0056b3;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 0 0 8px 8px;
+}
+
+footer p {
+    margin: 0;
 }
